@@ -72,14 +72,19 @@
 }
 .r-fifth-first{
     box-sizing: border-box;
-
+    opacity: 0.6;
     width: 32%;
     border: 1px solid;
     border-collapse: collapse;
     text-align: center;
 }
+.r-fifth-first:hover{
+    opacity: 1;
+}
+
 .r-fifth-first p{
     border-bottom: 1px solid;
+    padding: 20px 0px;
 }
 .r-fifth-first-p{
     padding: 25px 0px;
@@ -104,6 +109,11 @@
     border: none;
     background-color:rgba(12, 171, 117, 0.66);
     color: white;
+}
+#btn2:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
 }
 .r-sixth{
     display: flex;
@@ -177,4 +187,9 @@
     border: none;
     background-color: #333;
     color: white;
+}
+#btn3:hover{
+    background-color: #ddd;
+    cursor: pointer;
+    color: black;
 }

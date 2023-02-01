@@ -1,0 +1,31 @@
+@media screen and (max-width:992px) {
+    .l-box{
+        width: 0px;
+      display: none;
+    }
+    .r-box{
+        left: 0px;
+        width: 100% !important;
+    }
+}
+@media screen and (max-width:600px) {
+    .r-s-f{
+        width: 92% !important;    
+    }
+    .r-four-f img{
+        width: 98% !important;
+    }
+    .r-fifth-first{
+        width: 98% !important;
+        margin-bottom: 15px;
+    }
+    .r-sixth-c-f,.r-sixth-c-s,.r-sixth-c-t{
+        width: 98% !important;
+    }
+    .r-eight-container footer,.r-eight-container article{
+        width: 98% !important;
+    }
+    .r-eight-container article{
+        margin: 15px 0px ;
+    }
+}
